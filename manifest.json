@@ -1,7 +1,7 @@
 {
-  "name": "Onedio Blocker",
+  "name": "Bay Blocker",
   "version": "1.0",
-  "description": "Blocks access to onedio.com",
+  "description": "",
   "manifest_version": 3,
   "permissions": [
     "declarativeNetRequest"
