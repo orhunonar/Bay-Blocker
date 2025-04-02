@@ -1,0 +1,65 @@
+{
+  "name": "Onedio Blocker",
+  "version": "1.0",
+  "description": "Blocks access to onedio.com",
+  "manifest_version": 3,
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://yeniakit.com.tr/*",
+    "*://trt*.*/*",
+    "*://cnnturk*.*/*",
+    "*://tgrthaber.com/*",
+    "*://ahaber.com.tr/*",
+    "*://beyaztv.com.tr/*",
+    "*://demiroren.com.tr/*",
+    "*://turkuvazmedyagrubu.com.tr/*",   
+    "*://sabah.com.tr/*",    
+    "*://aksam.com.tr/*", 
+    "*://yenisafak.com/*", 
+    "*://espressolab.com/*",
+    "*://ntv.com.tr/*" ,                     
+    "*://ulker.com.tr/*",
+    "*://startv.com.tr/*",    
+    "*://tabii.com/*",
+    "*://nusr-et.com.tr/*",
+    "*://dogusgrubu.com.tr/*",
+    "*://tv100.com/*",
+    "*://milliyet.com.tr/*",
+    "*://hurriyet.com.tr/*",
+    "*://posta.com.tr/*",
+    "*://fanatik.com.tr/*",
+    "*://kanald.com.tr/*",
+    "*://teve2.com.tr/*",
+    "*://kemercountry.com/*",
+    "*://iddaa.com/*",
+    "*://misli.com/*",
+    "*://dsmart.com.tr/*",
+    "*://dsmartgo.com.tr/*",
+    "*://godiva.com.tr/*",
+    "*://dr.com.tr/*",
+    "*://idefix.com/*",
+    "*://esube.kargomsende.com/*", 
+    "*://takvim.com.tr/*",
+    "*://yeniasir.com.tr/*",
+    "*://fotomac.com.tr/*",
+    "*://puhutv.com/*",
+    "*://etstur.com/*",
+    "*://ucuzabilet.com/*",
+    "*://gazetevatan.com/*",
+    "*://metroturizm.com.tr/*",
+    "*://millipiyangoonline.com/*",
+    "*://milligazete.com.tr/*",
+    "*://kilimmobilya.com.tr/*",
+    "*://dbl.com/*"
+
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
+}
