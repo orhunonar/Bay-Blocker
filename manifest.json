@@ -52,7 +52,9 @@
     "*://millipiyangoonline.com/*",
     "*://milligazete.com.tr/*",
     "*://kilimmobilya.com.tr/*",
-    "*://dbl.com/*"
+    "*://dbl.com/*",
+    "*://atv.com.tr/*",
+    "*://aspor.com/*"
 
   ],
   "declarative_net_request": {

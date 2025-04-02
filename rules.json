@@ -437,6 +437,26 @@
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "other"]
     }
   }
+  ,
+  {
+    "id": 47,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "atv.com.tr",
+      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "other"]
+    }
+  }
+  ,
+  {
+    "id": 48,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "aspor.com",
+      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "other"]
+    }
+  }
   
   
 ]
